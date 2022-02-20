@@ -7,8 +7,8 @@ const newsSchema = new mongoose.Schema({
     unique: true,
     trim: true,
     maxlength: [
-      40,
-      "A News Title name must have less or equal then 40 characters",
+      200,
+      "A News Title name must have less or equal then 200 characters",
     ],
     minlength: [
       10,
